@@ -95,7 +95,7 @@
 }
 
 #forum td.forum .name a:hover {
-  color: #f3686d;
+  color: #B12930;
 }
 
 #forum td.forum .description {
@@ -195,5 +195,5 @@
 .page-forum ul.action-links a:hover,
 .page-forum ul.action-links a:active,
 .page-forum ul.action-links a:focus {
-  background: #f3686d;
+  background: #B12930;
 }

@@ -60,17 +60,17 @@
 
 /* Active Links */
 .sf-menu.sf-style-blog li.active-trail a.menuparent {
-  color: #f3686d;
+  color: #B12930;
 }
 
 .sf-menu.sf-style-blog a.active {
   border-bottom: 1px solid #f3686d;
-  color: #f3686d;
+  color: #B12930;
 }
 
 /* Child Menu Items Active */
 .sf-menu.sf-style-blog ul li a.active {
-  color: #f3686d;
+  color: #B12930;
 }
 
 /* Navbar */
@@ -97,7 +97,7 @@
 .sf-menu.sf-style-blog.sf-navbar li ul li a:hover,
 .sf-menu.sf-style-blog.sf-navbar li ul li a:focus,
 .sf-menu.sf-style-blog.sf-navbar li ul li a:active {
-  color: #f3686d;
+  color: #B12930;
 }
 
 /* Horizontal style */
@@ -116,7 +116,7 @@
 .sf-menu.sf-style-blog.sf-horizontal a:focus,
 .sf-menu.sf-style-blog.sf-horizontal a:active {
   border: 0;
-  color: #f3686d;
+  color: #B12930;
 }
 
 .sf-menu.sf-style-blog.sf-horizontal li ul li a {

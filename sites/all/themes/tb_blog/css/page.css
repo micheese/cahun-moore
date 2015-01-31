@@ -130,7 +130,6 @@ body.tb-sf-navbar #header-wrapper {
 #main-content .grid-inner {
   background: #fff;
   border: 1px solid #eee;
-  margin-right: 30px;
   padding: 20px 25px;
 }
 
@@ -158,7 +157,7 @@ body.not-front #main-content .region-content {
 
 /* Page Title */
 #page-title {
-  font-size: 3em;
+  font-size: 2.5em;
   font-weight: normal;
   line-height: 1;
   margin: 0 0 20px;
@@ -208,7 +207,6 @@ body.not-front #main-content .region-content {
 * Footer
 */
 #footer-wrapper {
-  background: url(../images/botsl-bg.gif) #222;
   border-top: 1px solid #292929;
 }
 
@@ -362,7 +360,7 @@ span.search-info-upload {
 .page-poll .region-content .block-content ul li a:focus,
 .page-poll .region-content .block-content ul li a:active {
   background-image: url(../images/arrow-r1-hover.gif);
-  color: #f3686d;
+  color: #B12930;
   text-decoration: underline;
 }
 
@@ -405,7 +403,7 @@ span.search-info-upload {
 }
 
 .poll .vote-form .form-submit:hover {
-  background: #f3686d;
+  background: #B12930;
   cursor: pointer;
 }
 
@@ -448,7 +446,7 @@ span.search-info-upload {
 .poll .bar .foreground {
   -webkit-border-radius: 5px;
   -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, .3) inset;
-  background: #f3686d;
+  background: #B12930;
   border-radius: 5px;
   box-shadow: 0 0 2px rgba(0, 0, 0, .3) inset;
 }
@@ -519,4 +517,14 @@ span.search-info-upload {
 }
 
 #feed-icons a.feed-icon {
+}
+
+.top-image{
+    width: 100%;
+    height: 300px;
+    background-image: url('images/sable-4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: red;
+    background-position: center;
 }

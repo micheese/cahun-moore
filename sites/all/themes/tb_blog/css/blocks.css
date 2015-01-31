@@ -372,7 +372,7 @@ div.view-tags-list ul li a {
 }
 
 div.view-tags-list ul li a:hover {
-  background: #f3686d;
+  background: #B12930;
   color: #fff;
 }
 
@@ -614,7 +614,7 @@ div.view-tags-list ul li a:hover {
 #main-content .article-header h2.node-title a:hover,
 #main-content .article-header h2.node-title a:focus,
 #main-content .article-header h2.node-title a:active {
-  color: #f3686d;
+  color: #B12930;
 }
 
 /* Block wrapper for Mini Panels */

@@ -55,7 +55,7 @@
 .comment-title a:hover,
 .comment-title a:active,
 .comment-title a:focus {
-  color: #f3686d;
+  color: #B12930;
   text-decoration: none;
 }
 
@@ -149,7 +149,7 @@
 }
 
 .comment ul.links li a:hover {
-  background: #f3686d;
+  background: #B12930;
 }
 
 /* Core comment link classes. */

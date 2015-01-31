@@ -78,7 +78,7 @@
           <?php if ($logo): ?>
             <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" id="logo">
 <!--              <img src="--><?php //print $logo; ?><!--" alt="--><?php //print t('Home'); ?><!--" />-->
-                <h1>Cahun / Moore</h1>
+                <h1>Héritages de Claude Cahun et Marcel Moore</h1>
             </a>
           <?php endif; ?>
 
@@ -134,12 +134,29 @@
     <!-- SLIDESHOW -->
     <div id="slideshow-wrapper" class="wrapper">
       <div class="container">
-        <div class="grid-inner clearfix">
-            <img src="<?php print url('../images/image_header.jpeg');?>">
+        <div class="grid-inner clearfix top-image">
         </div>
       </div>
     </div>
   <!-- //SLIDESHOW -->
+
+    <?php if($breadcrumb || $back_to_top_display): ?>
+        <!-- BREADCRUMB -->
+        <div id="breadcrumb-wrapper" class="wrapper">
+            <div class="container <?php print $grid;?>">
+                <div class="grid-inner clearfix">
+                    <?php if($breadcrumb):?>
+                        <?php print $breadcrumb; ?>
+                    <?php endif; ?>
+
+                    <?php if($back_to_top_display): ?>
+                        <a title="<?php print t('Back to Top')?>" class="btn-btt" href="#Top">▲ <?php print t('Top')?></a>
+                    <?php endif; ?>
+                </div>
+            </div>
+        </div>
+        <!-- //BREADCRUMB -->
+    <?php endif; ?>
 
   <?php if($messages || $page['help']): ?>
     <!-- HELP & MESSAGES -->
@@ -167,7 +184,7 @@
 
             <?php print render($title_prefix); ?>
             <?php if ($title): ?>
-              <h1 id="page-title"><?php print $title; ?></h1>
+              <h1 id="page-title" style="text-align: center"><?php print $title; ?></h1>
             <?php endif; ?>
 
             <?php print render($title_suffix); ?>
@@ -194,23 +211,6 @@
     </div>
   </div>
 
-  <?php if($breadcrumb || $back_to_top_display): ?>
-    <!-- BREADCRUMB -->
-    <div id="breadcrumb-wrapper" class="wrapper">
-      <div class="container <?php print $grid;?>">
-        <div class="grid-inner clearfix">
-          <?php if($breadcrumb):?>
-            <?php print $breadcrumb; ?>
-          <?php endif; ?>
-
-          <?php if($back_to_top_display): ?>
-            <a title="<?php print t('Back to Top')?>" class="btn-btt" href="#Top">▲ <?php print t('Top')?></a>
-          <?php endif; ?>
-        </div>
-      </div>
-    </div>
-    <!-- //BREADCRUMB -->
-  <?php endif; ?>
 
   <?php if($panel_second): ?>
     <!-- PANEL SECOND -->

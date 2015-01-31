@@ -127,7 +127,7 @@
 .block-content .view-popular-article a:hover,
 .block-content .view-popular-article a:focus,
 .block-content .view-popular-article a:active {
-  color: #f3686d;
+  color: #B12930;
 }
 
 .block-content .view-latest-article .views-field-created,
@@ -193,7 +193,7 @@
 .view-portfolio .view-content .item-list .views-row .views-field-title a:hover,
 .view-portfolio .view-content .item-list .views-row .views-field-title a:focus,
 .view-portfolio .view-content .item-list .views-row .views-field-title a:active {
-  color: #f3686d;
+  color: #B12930;
 }
 
 .view-portfolio .view-content .views-field-field-portfolio-image img {
@@ -232,7 +232,7 @@
 }
 
 .galleryformatter-greenarrows .gallery-thumbs li.active {
-  border-color: #f3686d;
+  border-color: #B12930;
 }
 
 .galleryformatter-greenarrows .gallery-thumbs li a {

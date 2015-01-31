@@ -1,6 +1,6 @@
 /* --- Common Links --- */
 a {
-  color: #f3686d;
+  color: #B12930;
   text-decoration: none;
 }
 
@@ -85,12 +85,12 @@ ul.menu li.leaf {
 .block ul.menu li a:focus,
 .block ul.menu li a:active {
   background-image: url(../images/arrow-r1-hover.gif);
-  color: #f3686d;
+  color: #B12930;
 }
 
 .block ul.menu li.active-trail > a.active-trail {
   background-image: url(../images/arrow-r1-hover.gif);
-  color: #f3686d;
+  color: #B12930;
   font-weight: bold;
 }
 
@@ -208,7 +208,7 @@ ul.menu li.leaf {
 #breadcrumb-wrapper ol li a:hover,
 #breadcrumb-wrapper ol li a:focus,
 #breadcrumb-wrapper ol li a:active {
-  color: #f3686d;
+  color: #B12930;
   text-decoration: underline;
 }
 
@@ -242,7 +242,7 @@ a.btn-btt:focus {
 #secondary-menu ul li a:hover,
 #secondary-menu ul li a:active,
 #secondary-menu ul li a:focus {
-  color: #f3686d;
+  color: #B12930;
   text-decoration: underline;
 }
 
@@ -302,7 +302,7 @@ ul.pager-list li {
 }
 
 ul.pager-list li.pager-current {
-  background: #f3686d;
+  background: #B12930;
   color: #fff;
 }
 
@@ -512,14 +512,14 @@ ul.primary li a {
 ul.primary li a:hover {
   background-color: #f7f7f7;
   border-color: #ddd;
-  color: #f3686d;
+  color: #B12930;
 }
 
 ul.primary li.active a {
   background-color: #fff;
   border: 1px solid #ddd;
   border-bottom: 2px solid #fff;
-  color: #f3686d;
+  color: #B12930;
 }
 
 .local-tasks ul.primary li a:hover {
