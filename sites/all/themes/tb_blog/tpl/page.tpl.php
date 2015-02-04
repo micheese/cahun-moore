@@ -140,23 +140,23 @@
     </div>
   <!-- //SLIDESHOW -->
 
-    <?php if($breadcrumb || $back_to_top_display): ?>
-        <!-- BREADCRUMB -->
-        <div id="breadcrumb-wrapper" class="wrapper">
-            <div class="container <?php print $grid;?>">
-                <div class="grid-inner clearfix">
-                    <?php if($breadcrumb):?>
-                        <?php print $breadcrumb; ?>
-                    <?php endif; ?>
-
-                    <?php if($back_to_top_display): ?>
-                        <a title="<?php print t('Back to Top')?>" class="btn-btt" href="#Top">▲ <?php print t('Top')?></a>
-                    <?php endif; ?>
-                </div>
-            </div>
-        </div>
-        <!-- //BREADCRUMB -->
-    <?php endif; ?>
+<!--    --><?php //if($breadcrumb || $back_to_top_display): ?>
+<!--        <!-- BREADCRUMB -->-->
+<!--        <div id="breadcrumb-wrapper" class="wrapper">-->
+<!--            <div class="container --><?php //print $grid;?><!--">-->
+<!--                <div class="grid-inner clearfix">-->
+<!--                    --><?php //if($breadcrumb):?>
+<!--                        --><?php //print $breadcrumb; ?>
+<!--                    --><?php //endif; ?>
+<!---->
+<!--                    --><?php //if($back_to_top_display): ?>
+<!--                        <a title="--><?php //print t('Back to Top')?><!--" class="btn-btt" href="#Top">▲ --><?php //print t('Top')?><!--</a>-->
+<!--                    --><?php //endif; ?>
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <!-- //BREADCRUMB -->-->
+<!--    --><?php //endif; ?>
 
   <?php if($messages || $page['help']): ?>
     <!-- HELP & MESSAGES -->
