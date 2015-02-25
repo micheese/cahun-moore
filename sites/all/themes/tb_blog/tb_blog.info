@@ -22,6 +22,9 @@ stylesheets[all][] = 'css/fonts.css'
 stylesheets[all][] = 'css/typo.css'
 stylesheets[print][] = 'css/print.css'
 
+;scripts
+scripts[] = 'js/jquery.slides.js'
+
 ; Conditional Stylesheets for IE
 stylesheets-conditional[IE 7][all][] = css/ie7.css
 
