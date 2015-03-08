@@ -12,7 +12,7 @@
  */
 function tb_blog_preprocess_node(&$vars) {
   if ($vars['type'] == 'blog') {
-    $vars['blog_created_day'] = date('d', $vars['created']);
+    $vars['blog_created_day']   = date('d', $vars['created']);
     $vars['blog_created_month'] = date('M', $vars['created']);
   }
 }
