@@ -528,3 +528,7 @@ span.search-info-upload {
     background-color: red;
     background-position: center;
 }
+
+.slidesjs-navigation {
+    display: none!important;
+}

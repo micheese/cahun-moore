@@ -134,8 +134,12 @@
     <!-- SLIDESHOW -->
     <div id="slideshow-wrapper" class="wrapper">
       <div class="container">
-        <div class="grid-inner clearfix top-image">
-        </div>
+          <div id="slides">
+              <img src="/sites/default/files/images/slider/slide1.JPG" style="max-width: 100%;max-height: 100%">
+              <img src="/sites/default/files/images/slider/slide2.JPG" style="max-width: 100%;max-height: 100%">
+              <img src="/sites/default/files/images/slider/slide3.JPG" style="max-width: 100%;max-height: 100%">
+              <img src="/sites/default/files/images/slider/slide4.JPG" style="max-width: 100%;max-height: 100%">
+          </div>
       </div>
     </div>
 
