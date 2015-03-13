@@ -135,6 +135,7 @@
     <div id="slideshow-wrapper" class="wrapper">
       <div class="container">
           <div id="slides">
+              <img src="/sites/default/files/images/slider/slide5.jpg" alt="Claude Cahun - Marcelle Moore" style="max-width: 100%;max-height: 100%">
               <img src="/sites/default/files/images/slider/slide1.jpg" alt="Claude Cahun - Marcelle Moore" style="max-width: 100%;max-height: 100%">
               <img src="/sites/default/files/images/slider/slide2.jpg" alt="Claude Cahun - Marcelle Moore" style="max-width: 100%;max-height: 100%">
               <img src="/sites/default/files/images/slider/slide3.jpg" alt="Claude Cahun - Marcelle Moore" style="max-width: 100%;max-height: 100%">
