@@ -532,3 +532,7 @@ span.search-info-upload {
 .slidesjs-navigation {
     display: none!important;
 }
+
+.field-name-field-basic-page-image{
+  text-align: center;
+}
