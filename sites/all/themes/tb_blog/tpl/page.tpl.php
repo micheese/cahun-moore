@@ -136,9 +136,9 @@
       <div class="container">
           <div id="slides">
               <img src="/sites/default/files/images/slider/slide1.jpg" alt="Claude Cahun - Marcelle Moore" style="max-width: 100%;max-height: 100%">
-              <img src="/sites/default/files/images/slider/slide2.jpg" alt="Claude Cahun - Marcelle Moore" style="max-width: 100%;max-height: 100%">
-              <img src="/sites/default/files/images/slider/slide3.jpg" alt="Claude Cahun - Marcelle Moore" style="max-width: 100%;max-height: 100%">
               <img src="/sites/default/files/images/slider/slide4.jpg" alt="Claude Cahun - Marcelle Moore" style="max-width: 100%;max-height: 100%">
+              <img src="/sites/default/files/images/slider/slide3.jpg" alt="Claude Cahun - Marcelle Moore" style="max-width: 100%;max-height: 100%">
+              <img src="/sites/default/files/images/slider/slide2.jpg" alt="Claude Cahun - Marcelle Moore" style="max-width: 100%;max-height: 100%">
           </div>
           <div class="photo-credits" style="padding-right: 20px; height: 20px; background:#f0f0f0; margin-top: 5px; margin-bottom: 5px; padding-left: 20px; font-family: "Arial, sans-serif;" >
                 <p style="text-align: right"> © Jersey Heritage Trust</p>
