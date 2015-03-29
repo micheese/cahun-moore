@@ -46,6 +46,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php print $language->language; ?>" lang="<?php print $language->language; ?>" dir="<?php print $language->dir; ?>">
   <head>
     <?php print $head; ?>
+
+      <meta charset="UTF-8">
+      <meta name="description" content="le site a pour vocation de devenir une plateforme de diffusion d’informations sur des journées d’étude, des colloques, des publications et des expositions consacrés au couple d’artistes Claude Cahun (Lucy Schwob, 1894-1954) et (Marcel) Moore (1892-1972).">
+      <meta name="keywords" content="Artiste, Auteur, Claude Cahun, Marcel Moore, article, publication, colloque, intermédialité, genre, image, photographie, littérature, histoire de l'art, écriture des femmes">
+      <meta name="author" content="Michaël Chemani, Alexandra Arvisais, Andrea Oberhuber">
+
     <title><?php print $head_title; ?></title>
     <?php print $styles; ?>
       <style>
