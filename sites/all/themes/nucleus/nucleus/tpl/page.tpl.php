@@ -198,7 +198,6 @@
               <?php endif; ?>
 
               <?php if ($content = render($page['content'])): print $content; endif; ?>
-
               <?php print $feed_icons; ?>
             </div>
           </div>

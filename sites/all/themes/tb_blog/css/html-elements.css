@@ -5,7 +5,6 @@ html {
 }
 
 body {
-  background: url(../images/body-bg.gif);
   line-height: 1.6; /* Unit-less line-height means line height can scale. */
 }
 
