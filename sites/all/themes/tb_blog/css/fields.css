@@ -43,6 +43,14 @@
     text-align: center;
 }
 
+.field-name-field-image-file {
+    text-align: center;
+}
+
+.field-name-field-multiple-image-descr {
+    padding-left: 115px;
+}
+
 .field-name-field-image-file img {
     border: 1px solid #eee;
     margin-bottom: 10px;
