@@ -39,6 +39,10 @@
   height: 90%;
 }
 
+.field-collection-item-field-affiche-promotion {
+    text-align: center;
+}
+
 .field-name-field-image-file img {
     border: 1px solid #eee;
     margin-bottom: 10px;
