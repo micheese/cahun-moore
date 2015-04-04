@@ -73,7 +73,7 @@
       $(function(){
           jQuery("#slides").slidesjs({
               width: 940,
-              height: 450,
+              height: 600,
               navigation: {
                   active: false
               },
