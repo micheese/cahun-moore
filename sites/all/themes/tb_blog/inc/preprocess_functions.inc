@@ -18,7 +18,7 @@ function tb_blog_preprocess_node(&$vars) {
 }
 
 function tb_blog_preprocess_page(&$vars) {
-    $node = $vars['node'];
+    isset($vars['node']) ? $node = $vars['node'] : $node = null;
 
     if(isset($node->field_header_image['und'][0]['uri'])) {
         $header_image_uri = $node->field_header_image['und'][0]['uri'];
