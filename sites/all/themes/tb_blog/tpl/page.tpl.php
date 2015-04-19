@@ -143,8 +143,8 @@
               <img src="/sites/default/files/images/slider/slide2.jpg" alt="Claude Cahun - Marcel Moore" style="height: 100%;">
               <img src="/sites/default/files/images/slider/slide6.jpg" alt="Claude Cahun - Marcel Moore" style="height: 100%;">
           </div>-->
-          <div style="text-align: center;height: 550px">
-            <img src="<?php print $header_image_url?>" alt="Claude Cahun - Marcel Moore" style="max-height: 90%;max-width: 90%">
+          <div style="text-align: center;height: 480px">
+            <img src="<?php print $header_image_url?>" alt="Claude Cahun - Marcel Moore" style="max-height: 100%;max-width: 90%">
           </div>
           <?php if(isset($header_image_credit) && $header_image_credit) : ?>
           <div class="photo-credits" style="text-align:center;margin:5px auto; width:80%;padding-right: 20px; height: 20px; margin-top: 5px; margin-bottom: 5px; padding-left: 20px; font-family: "Arial, sans-serif;" >
